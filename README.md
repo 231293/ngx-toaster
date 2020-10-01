@@ -47,7 +47,7 @@ The library provides a toast notification which is written in native Angular and
      
 *************************
 
-  4. **Create a placeholder** for the `ngx-toast-notification` componenet in your `app.component.html`
+  4. **Create a placeholder** for the `ngx-toast-notification` component in your `app.component.html`
 ```
     <ngx-toast-notification></ngx-toast-notification>
 ```
@@ -68,9 +68,9 @@ The library provides a toast notification which is written in native Angular and
 | id              |   string      |       No         |   ----------            |  Auto generated for each notification             |
 | message         |   string      |       Yes        |   ----------            |  The user defined toast message                   |
 | autoHide        |   boolean     |       No         |     true                |  This will hide the message                       |
-| displayDuration |   number      |       No         |     5000(milli seconds) |  Timeout Duration can be set using this property  |
+| displayDuration |   number      |       No         |     5000(milliseconds) |  Timeout Duration can be set using this property  |
 | showCloseButton |   boolean     |       No         |     true                |  Close button can be seen for manually closing it |
-| toastType       |   ToastType   |       Yes        |   ----------            |  Type of the toast message can be set htere       |
+| toastType       |   ToastType   |       Yes        |   ----------            |  Type of the toast message can be set here       |
 
 - where `ToastType` is a enumeration type that determines the type of the notification which takes a five values viz.,
     * ERROR
